@@ -32,13 +32,34 @@ In our original code we can see that about 93% of students passed their math exa
 After nulling grade scores in math and reading for 9th graders at "Thomas High School" we were left with the table shown above. Since we are not counting scores for 9th graders; naturally, these statistics are only considering students in the grades 10th thru 12th.
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-Removing this large chunck of data drastically skews the *% Passed* for reading, math and overall, but atleast it is accurately representing the the *% Passed* for students in the 10th to 12th grade.
+![image](https://user-images.githubusercontent.com/110706169/189089450-7ab66c7c-05b4-4b1f-b2ff-690b502bd1c1.png)
 
-- How does replacing the ninth-grade scores affect the following?
-   - Math and reading scores by grade
-   - Scores by school spending
-   - Scores by school size
-   - Scores by school type
+In our original code we can see that *Thomas High School* is ranked 2nd among the 14 other schools in the list. 
+
+![image](https://user-images.githubusercontent.com/110706169/189093160-64e29fd2-b671-4cce-a26b-023a6a3d39c6.png)
+
+After removing the grades for 9th graders, *Thomas High School* dropped to rank 8. This could potentially affect the board member's decision to allocate more or less money for the school.
+
+### How does replacing the ninth-grade scores affect the following?
+   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Math Scores by Grade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reading Scores by Grade
+![image](https://user-images.githubusercontent.com/110706169/189098182-b3cb42fb-8318-4c90-b752-965042c019fc.png) ![image](https://user-images.githubusercontent.com/110706169/189099415-bebc1c86-d332-4b8d-ab9f-dfa47eabbe3a.png)
+
+ Replacing the ninth-grade scores for math and reading will show as null in the 9th grade column in the tables above.
+
+ ### Scores by school spending:
+ #### Challenge Code
+ ![image](https://user-images.githubusercontent.com/110706169/189101204-ffceeb62-8de9-404e-9b96-457e6bc01a44.png) 
+ 
+ #### Original Code
+![image](https://user-images.githubusercontent.com/110706169/189102386-76411f8d-3e4f-41ad-9682-96e755eb9cba.png) ![image](https://user-images.githubusercontent.com/110706169/189104578-7a8f1662-2ef2-435f-b3e9-3f0f8ccba9a3.png)
+
+  Replacing the ninth-grade scores has virtually no effect on scores by school spending especially since we are rounding our percentages to the nearest number.
+ ### Scores by school size:
+ #### Challenge Code
+ #### Original Code
+ ### Scores by school type:
+ #### Challenge Code
+ #### Original Code
 ## Summary:
 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
