@@ -76,8 +76,8 @@ After removing the grades for 9th graders, *Thomas High School* dropped to rank 
 
 The scores determined by school type remain unaffected even after we remove the *Thomas High School* ninth-grader data.
 ## Summary:
+#### Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 1. *Thomas High School's* ranking dropped from rank 2 to rank 8 after we removed the ninth-grader data.
 2. The *% Overall Passing* dropped from 90.6% to 65.1% for *Thomas High School* .
 3. Data for *Thomas High School* ninth-graders will display "NaN" for reading and math when scoring by grades.
