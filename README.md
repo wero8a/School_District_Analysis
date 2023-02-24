@@ -4,6 +4,7 @@
 The purpose of this analysis is to prepare student standardized test data for analysis and presentation in different formats to provide insights about performance, trends, and patterns. This will inform board members and help make strategic decisions at the school and district level. 
 
 ## Resources:
+
 - Conda Version 4.14
 - Jupyter notebook 6.4.8
 - Python 3.7.13
